@@ -111,7 +111,7 @@ ColumnLayout {
             color: "#4A4646"
             textFormat: Text.RichText
 //            horizontalAlignment: Text.AlignHCenter
-            text: qsTr("To be able to communicate with the Masari network your wallet needs to be connected to a Masari node. For best privacy it's recommended to run your own node. \
+            text: qsTr("To be able to communicate with the Privatepay network your wallet needs to be connected to a Privatepay node. For best privacy it's recommended to run your own node. \
                         <br><br> \
                         If you don't have the option to run an own node there's an option to connect to a remote node.")
                     + translationManager.emptyString

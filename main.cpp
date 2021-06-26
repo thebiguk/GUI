@@ -238,7 +238,7 @@ int main(int argc, char *argv[])
 
 
     if (!moneroAccountsRootDir.empty()) {
-        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Masari/wallets";
+        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Privatepay/wallets";
         engine.rootContext()->setContextProperty("moneroAccountsDir", moneroAccountsDir);
     }
 

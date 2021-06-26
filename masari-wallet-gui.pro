@@ -471,7 +471,7 @@ OTHER_FILES += \
 
 DISTFILES += \
     notes.txt \
-    masari/src/wallet/CMakeLists.txt \
+    privatepay/src/wallet/CMakeLists.txt \
     components/MobileHeader.qml
 
 
