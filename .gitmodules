@@ -1,0 +1,4 @@
+[submodule "monero"]
+	path = monero
+	url = https://github.com/masari-project/masari
+	ignore = all
