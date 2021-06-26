@@ -1,6 +1,6 @@
 #!/bin/bash
-MONERO_URL=https://github.com/masari-project/masari.git
-MONERO_BRANCH=master
+MONERO_URL=https://github.com/privatepay-reborn/privatepay.git
+MONERO_BRANCH=v1.1.0.0
 
 pushd $(pwd)
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

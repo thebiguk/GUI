@@ -76,7 +76,7 @@ Item {
         wrapMode: Text.Wrap
         //renderType: Text.NativeRendering
         color: "#3F3F3F"
-        text: qsTr("We’re almost there - let’s just configure some Masari preferences") + translationManager.emptyString
+        text: qsTr("We’re almost there - let’s just configure some Privatepay preferences") + translationManager.emptyString
     }
 
     Column {
@@ -94,7 +94,7 @@ Item {
             spacing: 12
 
             CheckBox {
-                text: qsTr("Kickstart the Masari blockchain?") + translationManager.emptyString
+                text: qsTr("Kickstart the Privatepay blockchain?") + translationManager.emptyString
                 anchors.left: parent.left
                 anchors.right: parent.right
                 background: "#F0EEEE"
@@ -138,8 +138,8 @@ Item {
                 color: "#4A4646"
                 wrapMode: Text.Wrap
                 text: qsTr("Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as " +
-                           "a regular Masari instance. However, storing the full blockchain is beneficial to the security " +
-                           "of the Masari network. If you are on a device with limited disk space, then this option is appropriate for you.")
+                           "a regular Privatepay instance. However, storing the full blockchain is beneficial to the security " +
+                           "of the Privatepay network. If you are on a device with limited disk space, then this option is appropriate for you.")
                         + translationManager.emptyString
             }
         }
@@ -166,8 +166,8 @@ Item {
                 font.pixelSize: 15
                 color: "#4A4646"
                 wrapMode: Text.Wrap
-                text: qsTr("Mining secures the Masari network, and also pays a small reward for the work done. This option " +
-                           "will let Masari mine when your computer is on mains power and is idle. It will stop mining when you continue working.")
+                text: qsTr("Mining secures the Privatepay network, and also pays a small reward for the work done. This option " +
+                           "will let Privatepay mine when your computer is on mains power and is idle. It will stop mining when you continue working.")
                         + translationManager.emptyString
             }
         }

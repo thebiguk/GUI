@@ -64,7 +64,7 @@ source ./utils.sh
 pushd $(pwd)
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 MONERO_DIR=monero
-MONEROD_EXEC=masarid
+MONEROD_EXEC=privatepayd
 
 MAKE='make'
 if [[ $platform == *bsd* ]]; then
@@ -91,9 +91,9 @@ if [ "$ANDROID" != true ] && ([ "$platform" == "linux32" ] || [ "$platform" == "
 fi
 
 if [ "$platform" == "darwin" ]; then
-    BIN_PATH=$BIN_PATH/masari-wallet-gui.app/Contents/MacOS/
+    BIN_PATH=$BIN_PATH/privatepay-wallet-gui.app/Contents/MacOS/
 elif [ "$platform" == "mingw64" ] || [ "$platform" == "mingw32" ]; then
-    MONEROD_EXEC=masarid.exe
+    MONEROD_EXEC=privatepayd.exe
 fi
 
 # force version update
@@ -109,7 +109,7 @@ if ! QMAKE=$(find_command qmake qmake-qt5); then
     echo "Failed to find suitable qmake command."
     exit 1
 fi
-$QMAKE ../masari-wallet-gui.pro "$CONFIG" || exit
+$QMAKE ../privatepay-wallet-gui.pro "$CONFIG" || exit
 $MAKE || exit 
 
 # Copy monerod to bin folder

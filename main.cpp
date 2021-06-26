@@ -81,16 +81,16 @@ int main(int argc, char *argv[])
 //#endif
 
     // Log settings
-    Monero::Wallet::init(argv[0], "masari-wallet-gui");
+    Monero::Wallet::init(argv[0], "privatepay-wallet-gui");
 //    qInstallMessageHandler(messageHandler);
 
     MainApp app(argc, argv);
 
     qDebug() << "app startd";
 
-    app.setApplicationName("masari-gui");
-    app.setOrganizationDomain("getmasari.org");
-    app.setOrganizationName("masari-project");
+    app.setApplicationName("privatepay-gui");
+    app.setOrganizationDomain("getprivatepay.org");
+    app.setOrganizationName("privatepay-project");
 
     #if defined(Q_OS_LINUX) && !defined(Q_OS_ANDROID)
     app.setWindowIcon(QIcon(":/images/appicon.ico"));
@@ -249,7 +249,7 @@ int main(int argc, char *argv[])
         accountName = qgetenv("USERNAME"); // Windows
     }
     if (accountName.isEmpty()) {
-        accountName = "My masari Account";
+        accountName = "My privatepay Account";
     }
 
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);

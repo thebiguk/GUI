@@ -87,7 +87,7 @@ Rectangle {
 
         Text {
             text: qsTr("This page allows you to interact with the shared ring database.<br>" +
-                       "This database is meant for use by Masari wallets as well as wallets from Masari clones which reuse Masari keys.") + translationManager.emptyString
+                       "This database is meant for use by PrivatePay wallets as well as wallets from PrivatePay clones which reuse PrivatePay keys.") + translationManager.emptyString
             wrapMode: Text.Wrap
             Layout.fillWidth: true;
             color: Style.defaultFontColor
@@ -104,16 +104,16 @@ Rectangle {
             onLinkActivated: {
                 sharedRingDBDialog.title  = qsTr("Blackballed outputs") + translationManager.emptyString;
                 sharedRingDBDialog.text = qsTr(
-                    "In order to obscure which inputs in a Masari transaction are being spent, a third party should not be able " +
+                    "In order to obscure which inputs in a PrivatePay transaction are being spent, a third party should not be able " +
                     "to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection " +
                     "afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being " +
                     "actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers " +
-                    "of privacy protection Masari uses.<br>" +
+                    "of privacy protection PrivatePay uses.<br>" +
                     "To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new " +
-                    "transactions. Such a list is maintained by the Masari project and is available on the getmasari.org website, " +
+                    "transactions. Such a list is maintained by the PrivatePay project and is available on the privatepay.online website, " +
                     "and you can import this list here.<br>" +
-                    "Alternatively, you can scan the blockchain (and the blockchain of key-reusing Masari clones) yourself " +
-                    "using the masari-blockchain-blackball tool to create a list of known spent outputs.<br>"
+                    "Alternatively, you can scan the blockchain (and the blockchain of key-reusing PrivatePay clones) yourself " +
+                    "using the privatepay-blockchain-blackball tool to create a list of known spent outputs.<br>"
                 )
                 sharedRingDBDialog.icon = StandardIcon.Information
                 sharedRingDBDialog.open()
@@ -221,22 +221,22 @@ Rectangle {
             textFormat: Text.RichText
             text: "<style type='text/css'>a {text-decoration: none; color: #4CB860; font-size: 14px;}</style>" +
                   "<font size='+2'>" + qsTr("Rings") + "</font>" + "<font size='2'> (</font><a href='#'>" + qsTr("help") + "</a><font size='2'>)</font><br>" +
-                  qsTr("This records rings used by outputs spent on Masari on a key reusing chain, so that the same ring may be reused to avoid privacy issues.") + translationManager.emptyString
+                  qsTr("This records rings used by outputs spent on PrivatePay on a key reusing chain, so that the same ring may be reused to avoid privacy issues.") + translationManager.emptyString
             wrapMode: Text.Wrap
             Layout.fillWidth: true;
             onLinkActivated: {
                 sharedRingDBDialog.title  = qsTr("Rings") + translationManager.emptyString;
                 sharedRingDBDialog.text = qsTr(
-                    "In order to avoid nullifying the protection afforded by Masari's ring signatures, an output should not " +
+                    "In order to avoid nullifying the protection afforded by PrivatePay's ring signatures, an output should not " +
                     "be spent with different rings on different blockchains. While this is normally not a concern, it can become one " +
-                    "when a key-reusing Masari clone allows you do spend existing outputs. In this case, you need to ensure this " +
+                    "when a key-reusing PrivatePay clone allows you do spend existing outputs. In this case, you need to ensure this " +
                     "existing outputs uses the same ring on both chains.<br>" +
-                    "This will be done automatically by Masari and any key-reusing software which is not trying to actively strip " +
+                    "This will be done automatically by PrivatePay and any key-reusing software which is not trying to actively strip " +
                     "you of your privacy.<br>" +
-                    "If you are using a key-reusing Masari clone too, and this clone does not include this protection, you can still " +
+                    "If you are using a key-reusing PrivatePay clone too, and this clone does not include this protection, you can still " +
                     "ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, " +
-                    "which allows you to then spend your Masari safely.<br>" +
-                    "If you do not use a key-reusing Masari clone without these safety features, then you do not need to do anything " +
+                    "which allows you to then spend your PrivatePay safely.<br>" +
+                    "If you do not use a key-reusing PrivatePay clone without these safety features, then you do not need to do anything " +
                     "as it is all automated.<br>"
                 )
                 sharedRingDBDialog.icon = StandardIcon.Information
