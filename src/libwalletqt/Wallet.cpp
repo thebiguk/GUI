@@ -698,12 +698,12 @@ void Wallet::setWalletCreationHeight(quint64 height)
 
 QString Wallet::getDaemonLogPath() const
 {
-    return QString::fromStdString(m_walletImpl->getDefaultDataDir()) + "/masarid.log";
+    return QString::fromStdString(m_walletImpl->getDefaultDataDir()) + "/privatepayd.log";
 }
 
 QString Wallet::getWalletLogPath() const
 {
-    const QString filename("masari-wallet-gui.log");
+    const QString filename("privatepay-wallet-gui.log");
 
 #ifdef Q_OS_MACOS
     return QStandardPaths::standardLocations(QStandardPaths::HomeLocation).at(0) + "/Library/Logs/" + filename;

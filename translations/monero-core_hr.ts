@@ -579,8 +579,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="83"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Rudarenje vašim računalom pomaže očvršćivanju Monero mreže. Mrežu je teže napasti što više ljudi rudari, svaki komadić pomaže.&lt;br&gt; &lt;br&gt;Rudarenje vam također omogućuje da zaradite Monero. Računanjem kompaktnih vrijednosti računalo će tražiti rješenja za stvaranje blokova. Ukoliko pronađete blok, dobit ćete zasluženu nagradu. Sretno!</translation>
+        <source>Mining with your computer helps strengthen the PrivatePay network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some PrivatePay. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Rudarenje vašim računalom pomaže očvršćivanju PrivatePay mreže. Mrežu je teže napasti što više ljudi rudari, svaki komadić pomaže.&lt;br&gt; &lt;br&gt;Rudarenje vam također omogućuje da zaradite PrivatePay. Računanjem kompaktnih vrijednosti računalo će tražiti rješenja za stvaranje blokova. Ukoliko pronađete blok, dobit ćete zasluženu nagradu. Sretno!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="93"/>
@@ -1108,8 +1108,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="517"/>
-        <source>Embedded Monero version: </source>
-        <translation>Verzija ugrađenog Monero programa: </translation>
+        <source>Embedded PrivatePay version: </source>
+        <translation>Verzija ugrađenog PrivatePay programa: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="523"/>
@@ -1818,13 +1818,13 @@ U slučaju "dokaza potrošnje", adresa primatelja ne mora se navesti.</translati
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation>Gotovo smo završili - podesimo još samo neke Monero postavke</translation>
+        <source>We’re almost there - let’s just configure some PrivatePay preferences</source>
+        <translation>Gotovo smo završili - podesimo još samo neke PrivatePay postavke</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation>Pokrenuti Monero lanac blokova?</translation>
+        <source>Kickstart the PrivatePay blockchain?</source>
+        <translation>Pokrenuti PrivatePay lanac blokova?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1838,8 +1838,8 @@ U slučaju "dokaza potrošnje", adresa primatelja ne mora se navesti.</translati
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Način za zaštitu diska koristi znatno manje prostora na disku, ali jednaku količinu širine pojasa kao i regularna instanca Monera. Međutim, čuvanje cijelog lanca blokova korisno je za sigurnost Monero mreže. Ako ste na uređaju s ograničenim prostorom na disku, ova je opcija prikladna za vas.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular PrivatePay instance. However, storing the full blockchain is beneficial to the security of the PrivatePay network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Način za zaštitu diska koristi znatno manje prostora na disku, ali jednaku količinu širine pojasa kao i regularna instanca Monera. Međutim, čuvanje cijelog lanca blokova korisno je za sigurnost PrivatePay mreže. Ako ste na uređaju s ograničenim prostorom na disku, ova je opcija prikladna za vas.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1848,8 +1848,8 @@ U slučaju "dokaza potrošnje", adresa primatelja ne mora se navesti.</translati
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Rudarenje osigurava Monero mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Moneru da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
+        <source>Mining secures the PrivatePay network, and also pays a small reward for the work done. This option will let PrivatePay mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Rudarenje osigurava PrivatePay mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Moneru da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
     </message>
 </context>
 <context>
@@ -1872,8 +1872,8 @@ U slučaju "dokaza potrošnje", adresa primatelja ne mora se navesti.</translati
     <name>WizardDaemonSettings</name>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="114"/>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run an own node there&apos;s an option to connect to a remote node.</source>
-        <translation>Da biste uspješno komunicirali sa Monero mrežom, vaš novčanik mora biti povezan sa Monero čvorom. Za najveću razinu privatnosti preporuča se da pokrenete vaš vlastiti čvor.                         &lt;br&gt;&lt;br&gt;                         Ukoliko niste u mogućnosti pokrenuti vlastiti čvor, postoji opcija za spajanje sa udaljenim čvorom.</translation>
+        <source>To be able to communicate with the PrivatePay network your wallet needs to be connected to a PrivatePay node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run an own node there&apos;s an option to connect to a remote node.</source>
+        <translation>Da biste uspješno komunicirali sa PrivatePay mrežom, vaš novčanik mora biti povezan sa PrivatePay čvorom. Za najveću razinu privatnosti preporuča se da pokrenete vaš vlastiti čvor.                         &lt;br&gt;&lt;br&gt;                         Ukoliko niste u mogućnosti pokrenuti vlastiti čvor, postoji opcija za spajanje sa udaljenim čvorom.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="126"/>
@@ -1905,7 +1905,7 @@ U slučaju "dokaza potrošnje", adresa primatelja ne mora se navesti.</translati
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Monero development is solely supported by donations</source>
+        <source>PrivatePay development is solely supported by donations</source>
         <translation>Ravoj Monera se podržava isključivo od donacija</translation>
     </message>
     <message>
@@ -1920,8 +1920,8 @@ U slučaju "dokaza potrošnje", adresa primatelja ne mora se navesti.</translati
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 MSR and add a 0.0025 MSR to support Monero development.</source>
-        <translation>Za svaku transakciju se naplaćuje mala provizija. Ova opcija omogućava dodavanje dodatnog iznosa, kao postotka te provizije, vašoj transakciji u svrhu podrške razvoja Monera. Na primjer, postavka od 50% automatske donacije uzima transakcijsku proviziju od 0.005 MSR i dodaje 0.0025 MSR za podršku razvoja Monera.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support PrivatePay development. For instance, a 50% autodonation take a transaction fee of 0.005 XPP and add a 0.0025 XPP to support PrivatePay development.</source>
+        <translation>Za svaku transakciju se naplaćuje mala provizija. Ova opcija omogućava dodavanje dodatnog iznosa, kao postotka te provizije, vašoj transakciji u svrhu podrške razvoja Monera. Na primjer, postavka od 50% automatske donacije uzima transakcijsku proviziju od 0.005 XPP i dodaje 0.0025 XPP za podršku razvoja Monera.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1930,8 +1930,8 @@ U slučaju "dokaza potrošnje", adresa primatelja ne mora se navesti.</translati
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Rudarenje osigurava Monero mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Moneru da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
+        <source>Mining secures the PrivatePay network, and also pays a small reward for the work done. This option will let PrivatePay mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Rudarenje osigurava PrivatePay mrežu, a također plaća malu nagradu za obavljeni posao. Ova opcija će dopustiti Moneru da rudari kada je vaše računalo uključeno u struju i u stanju mirovanja. Rudarenje će se zaustaviti kada nastavite sa radom.</translation>
     </message>
 </context>
 <context>
@@ -2015,8 +2015,8 @@ U slučaju "dokaza potrošnje", adresa primatelja ne mora se navesti.</translati
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="375"/>
-        <source>USE MONERO</source>
-        <translation>KORISTI MONERO</translation>
+        <source>USE PrivatePay</source>
+        <translation>KORISTI PrivatePay</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="392"/>
@@ -2120,8 +2120,8 @@ U slučaju "dokaza potrošnje", adresa primatelja ne mora se navesti.</translati
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="74"/>
-        <source>Welcome to Monero!</source>
-        <translation>Dobrodošli u Monero!</translation>
+        <source>Welcome to PrivatePay!</source>
+        <translation>Dobrodošli u PrivatePay!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="85"/>
@@ -2190,8 +2190,8 @@ U slučaju "dokaza potrošnje", adresa primatelja ne mora se navesti.</translati
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
-        <translation>Dobrodošli u Monero!</translation>
+        <source>Welcome to PrivatePay!</source>
+        <translation>Dobrodošli u PrivatePay!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="83"/>
@@ -2336,8 +2336,8 @@ Provizija: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="822"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Ova adresa je primila %1 monero sa %2 potvrde.</translation>
+        <source>This address received %1 PrivatePay, with %2 confirmation(s).</source>
+        <translation>Ova adresa je primila %1 PrivatePay sa %2 potvrde.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="593"/>
@@ -2418,8 +2418,8 @@ Opis: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="819"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Ova adresa je primila %1 monero ali transakcija još nije izrudarena</translation>
+        <source>This address received %1 PrivatePay, but the transaction is not yet mined</source>
+        <translation>Ova adresa je primila %1 PrivatePay ali transakcija još nije izrudarena</translation>
     </message>
     <message>
         <location filename="../main.qml" line="826"/>
@@ -2499,8 +2499,8 @@ Opis: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1243"/>
-        <source>Monero</source>
-        <translation>Monero</translation>
+        <source>PrivatePay</source>
+        <translation>PrivatePay</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1317"/>
@@ -2529,8 +2529,8 @@ Opis: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1650"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nova verzija monero-wallet-gui je dostupna: %1&lt;br&gt;%2</translation>
+        <source>New version of PrivatePay-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nova verzija PrivatePay-wallet-gui je dostupna: %1&lt;br&gt;%2</translation>
     </message>
 </context>
 </TS>
